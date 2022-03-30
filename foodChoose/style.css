@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    background-color: rgb(227, 202, 250);
+}
+li{
+    text-align: left;
+    font-size: 20px;
+    line-height: 3cm;
+    color: rgb(160, 5, 5);
+}
+img{
+    width:500px;
+    position: fixed;
+    top: 25%;
+    left:35%;
+}
