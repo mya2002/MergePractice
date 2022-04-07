@@ -2,6 +2,7 @@ body{
    text-align: center;
    color: aliceblue;
    background-image: url("noctyx.png");
+   
 }
 h1{
     background-color: aliceblue;
@@ -22,3 +23,25 @@ h2{
     text-align: center;
     position: relative;
 }
+input {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: pink;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(246, 143, 160);
+  }
+  
+  input :hover {background-color: rgb(255, 133, 153)}
+  
+  input:active {
+    background-color: rgb(246, 143, 160);
+    box-shadow: 0 5px rgb(255, 133, 153);
+    transform: translateY(4px);
+  }
