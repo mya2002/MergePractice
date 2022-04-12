@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color: rgb(227, 202, 250);
+}
+li{
+    text-align: left;
+    font-size: 20px;
+    line-height: 3cm;
+    color: rgb(160, 5, 5);
+}
+img{
+    width:500px;
+    position: fixed;
+    top: 25%;
+    left:35%;
+}
+input {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #d109c7;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(153, 153, 153);
+  }
+  
+  input :hover {background-color: #873e8e}
+  
+  input:active {
+    background-color: #8e3e8e;
+    box-shadow: 0 5px rgb(102, 102, 102);
+    transform: translateY(4px);
+  }
